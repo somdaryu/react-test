@@ -7,7 +7,6 @@ const Todo = () => {
 
   const [input, setInput] = useState('0');
   const [type, setType] = useState("");
-  const [total, setTotal] = useState(0);
 
   const todolist = useSelector((state) => 
     { 
